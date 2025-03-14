@@ -160,3 +160,10 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+.message {
+    font-family: "Inter", sans-serif;
+    color: #96031a;
+    font-weight: bold;
+    margin-top: 8px;
+}

@@ -9,7 +9,9 @@ function agregar_amigo () {
     let nombre = document.getElementById("amigo")
     let amigo = nombre.Value;
     if ('amigo != amigo'){
-        alert("Debes ingresar un Nomnbre")
+        /* alert("Debes ingresar un Nomnbre") */
+        const message = document.getElementById("message");
+        message.textContent = "*Debes ingresar un Nomnbre";
         return;
     };
 
