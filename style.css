@@ -13,6 +13,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body {
@@ -21,6 +22,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .main-content {
@@ -37,6 +39,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 40px 0 0;
+    gap: 2rem;
 }
 
 /* Sección de entrada */
@@ -50,6 +53,7 @@ body {
     align-items: center;
     padding: 20px;
     width: 100%;
+    justify-content: space-between;
 }
 
 /* Títulos */
@@ -167,3 +171,45 @@ ul {
     font-weight: bold;
     margin-top: 8px;
 }
+
+.message_div_sortear{
+    width: 346px;
+    text-align: justify;
+    padding: 12px;
+    border: 5px solid #96031a;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 7px;
+    background-color: #ffffff;
+    font-family: "Inter",sans-serif;
+    font-size: 14px;
+    align-items: stretch;
+    
+}
+
+.hidden {
+    visibility: hidden;
+}
+.div_message_close{
+   width: 20px;
+   align-self: start;
+   gap: 5px;
+
+}
+   
+.footer{
+    background-color: var(--color-primary);
+    color:#ffffff;
+    text-align: center;
+    font-family:"Merriweather", serif;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    gap: 1rem;
+ 
+    
+}        
+
+

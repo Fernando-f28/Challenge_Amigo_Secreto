@@ -14,7 +14,7 @@
     <main class="main-content">
         <header class="header-banner">
             <h1 class="main-title">Amigo Secreto</h1>
-            <img src="assets/amigo-secreto.png" alt="Imagen representativa de amigo secreto">
+            <img src="assets/add-user.png" width="150px" alt="Imagen representativa de amigo secreto">
         </header>
         
         <section class="input-section">
@@ -27,16 +27,24 @@
            
             <ul id="listaAmigos" class="name-list" aria-labelledby="listaAmigos" role="list"></ul>
             <ul id="resultado" class="result-list" aria-live="polite"></ul>
-
+            
+            <div id="div_mensage_sorteo" class ="message_div_sortear hidden">
+                <img src="/assets/close.png" width="40px" alt="Imagen de Error">
+                <div><h2>Error</h2><p id="message-description">No hay amigos para Sortear</p></div>
+                <span aria-hidden="true" onclick="closeMessage()" style="cursor: pointer;"><img src="/assets/close (1).png" class="div_message_close"></span> 
+            </div>
             <div class="button-container">
-                <button class="button-draw" onclick="sortearAmigo()" aria-label="Sortear amigo secreto">
+                <button class="button-draw" onclick="sortear_amigos()" aria-label="Sortear amigo secreto">
                     <img src="assets/play_circle_outline.png" alt="Ícono para sortear">
                     Sortear amigo
                 </button>
             </div>
         </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+        <p >Desarrollado por:  Fernando Ferrer</p>
+        <img src="/assets/flag.png" class="img_footer" width="37px">
+    </footer>
     <script src="app.js" defer></script>
 </body>
 </html>
