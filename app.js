@@ -6,16 +6,17 @@ function agregar_amigo() {
     let nombre = document.getElementById("amigo");
     let nombre_amigo = nombre.value;
 
-    while (!nombre_amigo){
+    if (!nombre_amigo){
         const message = document.getElementById("message");
         message.textContent = "*Debes ingresar un Nombre";
         return;
-    }
+    }else{
+        message.style.display = "none";
         amigoSecreto.push(nombre_amigo);
         nombre.value = "";
         nombre.focus();
         mostrar_amigos();
-        
+    }    
 }
 
 function mostrar_amigos() {
@@ -49,6 +50,3 @@ function closeMessage() {
     const message = document.getElementById("div_mensage_sorteo");
     message.classList.toggle("hidden");
 }
-
-
-//Objetos
