@@ -11,6 +11,8 @@ Es un juego que se basa en colocar nombres de amigos y el  programa sorteara los
 
 El proyecto fue implementado en **HTML** con **CSS** y la programacion en **JavaScript** aqui una breve demostracion. 
 
-<img src="/assets/Challenge.mp4" alt="Demostracion">
+![Juego](/assets/Inicio.png)
 
+
+![Demostracion](/assets/Ejecucion.png)
 
